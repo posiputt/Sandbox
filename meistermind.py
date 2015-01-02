@@ -24,7 +24,7 @@ def meistermind():
         solution += colors[s]
         c += 1
 
-    while turns > 0:
+    while turns > 0:    #game loop
         turns -= 1
         correct = 0
         almost = 0
@@ -57,5 +57,3 @@ def meistermind():
             print turns, "guesses left."
 
     print "the End"
-
-meistermind()
